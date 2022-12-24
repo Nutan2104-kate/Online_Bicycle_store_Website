@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Checkout</title>
+	<style>
+		body {
+			text-align: center;
+		}
+		html {
+			scroll-behavior: smooth;
+			font-family: Alegreya;
+			text-align: center;
+		}
+		img.logo {
+			width: 50px;
+			height: 50px;
+		}
+		div {
+			text-align: center;
+		}
+		h2 {
+			text-align: center;
+		}
+		ol {
+			list-style-type: none;
+			margin: 0;
+			margin-top: 10px;
+			text-align: center;
+			padding: 5px;
+			background-color: black;
+		}
+		li {
+			display: inline-block;
+			padding: 15px;
+			text-decoration: none;
+			margin-right: 20px;
+			border: 2px black solid;
+		}
+		a {
+			text-decoration: none;
+			color: orange;
+		}
+		p {
+			text-align: center;
+		}
+		form {
+			padding: 15px;
+			padding-bottom: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<a href="Home.html"><span style="color: black;"><h2>TRACK AND TRAILS</h2></span></a>
+			<img class="logo" src="Logo.png" alt="LOGO">
+		<nav>
+			<ol class="nav">
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="Bikes.html">Bikes</a></li>
+				<li><a href="Accessories.html">Accessories</a></li>
+				<li><a href="Services.html">Services</a></li>
+				<li><a href="Contact.html">Contact Us</a></li>
+				<li><a href="Link.html">My Account</a></li>
+			</ol>
+		</nav>
+		<br>
+	</div>
+</head>
+<body>
+	<h2>Payment</h2>
+	<form>
+		<h4>Billing Address:</h4>
+		<label for="Name">Full Name</label><br>
+		<input type="text" name="fullName" id="Name"><br><br>
+		<label for="email">Email</label><br>
+		<input type="email" name="Email" id="email"><br><br>
+		<label for="address">Address</label><br>
+		<input type="address" name="Address" id="address"><br><br>
+		<label for="city">City</label><br>
+		<input type="text" name="City" id="city"><br><br>
+		<label for="zip">PIN</label><br>
+		<input type="number" name="Zip" id="zip"><br><br>
+		<input type="checkbox" name="Add" id="add">
+		<label for="add">Save the Address</label>
+	</form>
+</body>
+</html>
